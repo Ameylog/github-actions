@@ -1,0 +1,14 @@
+name: Second-workflow
+on: push
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "welcome"
+        run: echo "Welcome to the second workflow!"
+
+  good-bye-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "good-bye"
+        run: echo "Good-bye from the second workflow!"
