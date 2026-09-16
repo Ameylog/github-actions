@@ -3,7 +3,9 @@ name: Second-workflow
 # on: push    
 
 # manually trigger the workflow
-on: workflow_dispatch
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   hello-job:
