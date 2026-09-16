@@ -1,5 +1,10 @@
 name: Second-workflow
-on: push
+# when push code then run automatically 
+# on: push    
+
+# manually trigger the workflow
+on: workflow_dispatch
+
 jobs:
   hello-job:
     runs-on: ubuntu-latest
